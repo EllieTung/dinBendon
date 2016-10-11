@@ -1,0 +1,238 @@
+
+                input{
+                    border-radius: 8px;
+                }
+                
+                p {
+                	margin: 0 0 1em 0;
+                	font-size: 100%;
+                	line-height: 1.5em;
+                }
+                /* Header */
+                div.header {
+                    max-width: device-width;
+                	background-color:	#FFDEAD;
+                	padding: 5px;
+                	margin:10px 5px 5px 5px;
+                	border-radius: 10px;
+                	border:dashed #FF7F50;
+                }
+                div.header h1 {
+                	Z-index:20;
+                	font-family:Comic Sans MS;
+                	font-size:350%;	
+                }
+                /* Navigation */
+                div.nav{
+                    float:left;
+                    max-width: 120px;
+                	font-family:Comic Sans MS,Microsoft JhengHei;
+                }
+                
+                div.nav ul {
+                	margin: 5px;
+                	padding: 0;
+                }
+                
+                div.nav ul li {
+                    margin: 2px;
+                    padding: 0;
+                	list-style: none;	
+                }
+                
+                div.nav ul li a {
+                	font-size: 120%;
+                	border-radius:10px;
+                }
+                
+                div.nav ul li a:hover{
+                    position:relative;
+                    left:1px;
+                    top:1px;
+                	list-style: none;
+                	font-size: 140%;
+                	color:yellow;
+                	border-radius:10px;
+                }
+                
+                div.nav ul li a:link,
+                div.nav ul li a:visited {
+                	display: block;
+                	padding: 10px 15px;
+                	text-decoration: none;
+                }
+                
+                
+                /* Body Content */
+                div.body-content {
+                	max-width: device-width;
+                	padding: 5px;
+                	margin: 5px;
+                	border:solid #FF7F50;
+                	background-color:#FFE4E1;
+                	border-radius: 10px;
+                	font-family:Comic Sans MS,Microsoft JhengHei;
+                }
+                /* countDownTimer */
+                div#countDownTimer{
+                    width:60px;
+                    float: right;
+                    padding:0px 0px 0px 3px;
+                    font-family:Comic Sans MS;
+                    border-radius: 5px;
+                    background-color:red;
+                    color:white;
+                }
+                /* Main Column */
+                div.main {
+                	width: 68%;
+                	float: left;
+                	margin-right: 1%;
+                	font-family:Comic Sans MS,Microsoft JhengHei;
+                	border-radius: 10px;
+                	background-color:#FFE4E1;
+                }
+                
+                /* Side Column */
+                div.side form {
+                    background-color:#7FFFD4;
+                    padding:20px;
+                    font-size:20px;
+                    font-family:Microsoft JhengHei;
+                	width: 30%;
+                	float: left;
+                	border:dashed #5F9EA0;
+                	border-radius: 10px;
+                }
+                
+                /* helf Box */
+                div.one-helf-l {
+                	background-color:#B0E0E6;
+                	width:50%;
+                	padding: 10px;
+                	font-size: 15px;
+                	font-family:Microsoft JhengHei;
+                	margin: 5px;
+                	float:left;
+                	border:dashed #4169E1;
+                	border-radius: 10px;
+                }
+                div.one-helf-r {
+                	background-color:#FFFACD;
+                	width:28%;
+                	padding: 10px 2px 10px 10px;
+                	font-size: 15px;
+                	font-family:Comic Sans MS,Microsoft JhengHei;
+                	margin: 5px;
+                	float:left;
+                	border:solid #DC143C;
+                	border-radius: 10px;
+                }
+                
+                /* Footer */
+                div.footer {
+                	padding: 5px 0;
+                	text-align: center;	
+                	max-width: device-width;
+                	overflow:hidden;
+                }
+                div.footerImage {
+                	position: relative;
+                	width: 3000px;
+                	height: 136px;
+                	background-image: url('../image/food.jpg');
+                	background-repeat: repeat-x;
+                	-webkit-animation: rollImage linear 20s infinite;
+                    -moz-animation: rollImage linear 20s infinite;
+                    -ms-animation: rollImage linear 20s infinite;
+                    animation: rollImage linear 20s infinite;
+                }
+                @-webkit-keyframes rollImage {
+                	from { right: 0px; }
+                	to { right: 1000px; }
+                }
+                @-moz-keyframes rollImage {
+                	from { right: 0px; }
+                	to { right: 1000px; }
+                }
+                @keyframes rollImage {
+                	from { right: 0px; }
+                	to { right: 1000px; }
+                }
+                /* ChatRoom */
+                div.chatRoom{
+                    position:relative;
+                    width:60%;
+                    height:50%;
+                    background-color:#F0FFFF;
+                    font-size:20px;
+                    font-family:Microsoft JhengHei,sans-serif;
+                	float: left;
+                	border:dashed #5F9EA0;
+                	border-radius: 10px;
+                	margin:0px 50px 0px 50px;
+                }
+                div.screenArea{
+                   height:89%;
+                   overflow:hidden;
+                }
+                div.selfBlock{
+                    font-size:70%;
+                    position:absolute;
+                    min-width:10%;
+                    max-width:80%;
+                    background-color:#87CEFA;
+                    padding:5px;
+                    margin:2px;
+                    right:2px;
+                    border-radius: 15px;
+                }
+                div.friendBlock{
+                    font-size:70%;
+                    position:absolute;
+                    min-width:10%;
+                    max-width:80%;
+                    background-color:#FFFACD;
+                    padding:5px;
+                    margin:2px;
+                    left:2px;
+                    border-radius: 15px;
+                }
+                div.chatRoom form {
+                    position:absolute;
+                    width:95%;
+                    bottom:3px;
+                    right:5px;
+                    margin:1px;
+                }
+                div #inputBox{
+                    width:86%;
+                }
+                div #btnChat{
+                    font-size:20px;
+                    width:12%;
+                    padding:0.2px;
+                }
+                table {
+                    font-family:Comic Sans MS,Microsoft JhengHei;
+                    width:440px;}
+                
+                #order {
+                    font-family:Comic Sans MS,Microsoft JhengHei;
+                    width:200px;}
+	            td {border:1px dashed black;
+                    padding:2px}
+	            tr {font-size:1em;}
+	            a {font-size:small}
+	            .left{float:left}
+	            .right{float:right}
+            	.year {text-align:center; font-size:medium}
+            	.day {text-align:center;width:150px;}
+                #d1,#d3,#d5 {color:#4169E1;background-color:#ADD8E6}
+                #d0,#d2,#d4,#d6 {color:#FAFAD2;background-color:#F08080 }
+                
+                
+                .clearfix:before, 
+                .clearfix:after { content: ""; display: table; }
+                .clearfix:after { clear: both; }
+                .clearfix { *zoom: 1; }
